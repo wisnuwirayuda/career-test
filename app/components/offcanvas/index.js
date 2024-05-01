@@ -76,8 +76,11 @@ export function OffCanvas({ data }) {
                         </Form.Select>
                     </div>
                     {locations == undefined || locations == "Pilih Lokasi" ? null :
-                        <div className='mt-4 text-center'>
-                            List Lokasi & Karakter
+                        <div className='mt-4'>
+                            <div className='text-center fw-semibold' style={{ fontSize: 14 }}>List Lokasi & Karakter</div>
+                            <div className='mt-3 fw-medium' style={{ fontSize: 12, textAlign: 'justify' }}>
+                                Sebelumnya mohon maaf, saya kurang mengerti dengan penjelasan Poin Nomor 5 dari PDF yang dilampirkan. Mungkin hanya ini saja yg dapat saya kerjakan. <br /> <br /> Atas perhatian Bapak/Ibu, saya ucapkan terimakasih. <br /> <br /> Salam, <br /> Wisnu Trenggono Wirayuda
+                            </div>
                         </div>
                     }
                 </Offcanvas.Body>
